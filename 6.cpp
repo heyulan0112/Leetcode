@@ -5,6 +5,7 @@ public:
     // and its row number in ans should be (2*numRows-2-mod)
     // also need to handle special case: numRows = 1 (only on row) 
     // and string s size<= numRows(only on column)
+    // Time complexity is O(n)
     string convert(string s, int numRows) {
         if(s.size() <= numRows || numRows < 2)
             return s;
