@@ -2,6 +2,7 @@ class NumArray {
 public:
     // Idea: using prefix sum to solve it
     // Prefix sum basic template
+    // Time complexity of func sumRange is O(1)
     vector<int> presum;
     NumArray(vector<int>& nums) {
         presum = vector<int> (nums.size()+1,0);
